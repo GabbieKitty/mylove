@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: url(/Imagens/cursor.cur), auto;
+}
+
+html,body{
+    height: 100%;
+}
+
+form{
+    width: 96%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Comic Sans MS";
+}
+
+form fieldset{
+    padding: 20px 40px;
+}
+
+form legend{
+    font-size: 30px;
+    color: #AB517F;
+}
+
+form input[type=text]{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    padding: 10px 20px;
+    cursor: pointer;
+
+}
+
+h3{
+    margin: 10px;
+    color:#AB517F;
+}
+
+select{
+    display: inline-block;
+    text-align: center;
+    margin-top: 5px;
+    padding: 10px 10px;
+}
+
+.radio{
+    display: inline-block;
+    text-align: left;
+    margin-top: 10px;
+}
+.radio span{
+    margin-left: 4px;
+    font-size: 15px;    
+}
+
+.check{
+    display: inline-block;
+    text-align: left;
+    margin-top: 10px;
+}
+.check span{
+    margin-left: 4px;
+    font-size: 15px;    
+}
+
+
+
+
+form input[type=submit]{
+    margin-top: 30px;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border: 1px solid #7D2652;
+    background-color: #AB517F;
+}
+
+form input[type=submit]:hover{
+    background-color: #be6191;
+}
+
+form input[type=submit]:active{
+    background-color: #5A1A3B;
+}
+
+
